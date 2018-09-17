@@ -6,10 +6,9 @@ const clientString = 'QA';
 const good = 'ACK';
 const bad = 'DEC';
 const logger = fs.createWriteStream('client_id.log');   // создание файла log
-
 let seed = 0;      // инициализируем сид
 
-const server = net.createServer((client) => {
+const server = net.createServer((client) => {   // создаем сервер
     console.log('Client connected');
     client.setEncoding('utf8');
 

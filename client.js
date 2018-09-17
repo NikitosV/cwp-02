@@ -41,10 +41,8 @@ client.on('close', function () {
     console.log('Connection closed');
 });
 
-
-
 function sendQuestion() {
-    if (currentIndex < questions.length -1) {
+    if (currentIndex < questions.length-1) {
         let qst = questions[++currentIndex].quest;
         client.write(qst);
     }
