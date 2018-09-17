@@ -1,14 +1,18 @@
 [
   {
-    "q": "1+1",
-    "g": "2"
+    "quest": "Is author's name Nikita?",
+    "ans": "1"
   },
   {
-    "q": "2*3",
-    "g": "6"
+    "quest": "Client, you are hear me?",
+    "ans": "1"
   },
   {
-    "q": "5*0",
-    "g": "0"
+    "quest" : "Do you know NodeJS?",
+    "good" : "0"
+  },
+  {
+    "quest" : "Do you love C++?",
+    "good" : "0"
   }
 ]
